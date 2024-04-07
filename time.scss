@@ -9,8 +9,8 @@ html{
 }
 body{
     background: rgb(33,73,24);
-    background: linear-gradient(90deg, rgba(33,73,24,1) 0%,
-     rgba(3,255,0,1) 100%);    
+    background: linear-gradient(90deg, rgb(52, 165, 142) 0%,
+     rgb(77, 222, 11) 100%);    
     header{
     background-color: rgb(5, 47, 5);
     width: 100%;
@@ -82,101 +82,61 @@ body{
             background-color:green; ;
         }
     }
-    }
-    .forInput{
-        width: 100%;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        margin-top: 120px;
-    input{
-        width: 300px;
-        height: 50px;
-        border-radius: 50px;
-        border: none;
-        padding-left: 10px;
-        transition: 1s;
-        color: aqua;
-        }
-        input:hover{
-            background-color: greenyellow;
-        }
-        input:focus{
-            background-color: rgb(121, 160, 63);
-        }
-    }
-    #main{
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        flex-wrap: wrap;
-        div{
-            width: 300px;
-            background-color: rgb(18, 246, 83);
-            height: 400px;
-            margin-top: 50px;
-            margin-inline:50px ;
-            border-radius: 10px;
-            box-shadow: 0px 0px 5px 5px white;
-            overflow: hidden;
-            display: flex;
-            flex-direction: column;
-            justify-content: space-between;
-            text-align: center;
-        img{
-            width: 100%;
-            height: 50%;
-            object-fit: cover;
-        }
-        button{
-            height: 10%;
-            background-color:  rgb(18, 246, 83);
-            border: none;
-            cursor: pointer;
-            font-size: 30px;
-            transition: 1s;
-        }
-        button:hover{
-            background-color:aqua ;
-        }
-    }
-    }
-    #fexi{
-        background-color: black;
-        width: 100%;
-        height: 300px;
-        margin-top: 20px;
-        display: flex;
-        justify-content: space-between;
-        flex-wrap: wrap;
-        a{
-            color: greenyellow;
-            text-decoration: none;
-            transition: 1s;
-        }
-        a:hover{
-            color: green;
-        }
-        div{
-            display: flex;
-            justify-content: space-around;
-            flex-direction: column;
-            align-items: center;
-            width: 50%;
-            div{
-                display: flex;
-                gap: 20px;
-            }
-        }
-        p{
-            color: white;
-        }
-        h2{
-            color: white;
-        }
+}
+}
+.mtavari{
+    margin-top: 80px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    height: 89.1vh;
+    h1{
+        position: relative;
+        font-size: 90px;
+        letter-spacing: 3px;
+        color: transparent;
+        background-image: linear-gradient(90deg, rgba(52, 56, 186, 1) 0%, rgba(252, 209, 40, 1) 59%, rgba(191, 80, 80, 1) 100%);
+        -webkit-background-clip: text;
+        background-clip: text;
     }
 }
-// /////////////////////
+#fexi{
+    background-color: black;
+    width: 100%;
+    height: 300px;
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    a{
+        color: greenyellow;
+        text-decoration: none;
+        transition: 1s;
+    }
+    a:hover{
+        color: green;
+    }
+    div{
+        display: flex;
+        justify-content: space-around;
+        flex-direction: column;
+        align-items: center;
+        width: 50%;
+        div{
+            display: flex;
+            gap: 20px;
+        }
+    }
+    p{
+        color: white;
+    }
+    h2{
+        color: white;
+    }
+}
+// /////////////////////////
 @media screen and (max-width: 1132px) {
     .head1 ul {
         display: none;
@@ -235,11 +195,6 @@ body{
         }
     }
 }
-@media screen and (max-width: 190px){
-    input{
-        width: 90px !important;
-    }
-}
 @media screen and (max-width: 361px){
     #fexi{
         display: flex;
@@ -261,15 +216,25 @@ body{
             font-size: 11px;
         }
     }
-    .tani{
-        h2{
-            font-size: 15px !important;
-        }
+}
+// /////////////////////////////
+@media screen and (max-width: 360px){
+    h1{
+        font-size: 75px !important;
     }
 }
-@media screen and (max-width: 182px){
-    button{
-        font-size: 20px !important;
+@media screen and (max-width: 295px){
+    h1{
+        font-size: 60px !important;
     }
 }
-// ////////////////////////////
+@media screen and (max-width: 245px){
+    h1{
+        font-size: 45px !important;
+    }
+}
+@media screen and (max-width: 190px){
+    h1{
+        font-size: 35px !important;
+    }
+}
