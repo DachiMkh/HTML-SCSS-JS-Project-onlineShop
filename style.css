@@ -29,7 +29,7 @@ body header .head1 {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  width: 50%;
+  width: 60%;
   height: 80px;
 }
 body header .head1 h2 {
@@ -143,4 +143,9 @@ body #main div button {
 }
 body #main div button:hover {
   background-color: aqua;
+}
+body #fexi {
+  background-color: black;
+  width: 100%;
+  height: 500px;
 }/*# sourceMappingURL=style.css.map */
