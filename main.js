@@ -15,7 +15,7 @@ input.addEventListener("keyup", function(){
 function myCards(things){
     for(let i = 0; i < things.length; i++){
         if(things[i].title.toLowerCase().includes(input.value.toLowerCase())){
-        sec.innerHTML += `<div>
+        sec.innerHTML += `<div class = "tani">
         <img src="${things[i].image}" alt="poto">
         <h2>${things[i].title}</h2>
         <p>${things[i].price} $</p>

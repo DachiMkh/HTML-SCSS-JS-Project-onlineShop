@@ -144,6 +144,130 @@ body{
     #fexi{
         background-color: black;
         width: 100%;
-        height: 500px;
+        height: 300px;
+        margin-top: 20px;
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        a{
+            color: greenyellow;
+            text-decoration: none;
+            transition: 1s;
+        }
+        a:hover{
+            color: green;
+        }
+        div{
+            display: flex;
+            justify-content: space-around;
+            flex-direction: column;
+            align-items: center;
+            width: 50%;
+            div{
+                display: flex;
+                gap: 20px;
+            }
+        }
+        p{
+            color: white;
+        }
+        h2{
+            color: white;
+        }
+    }
+}
+@media screen and (max-width: 1132px) {
+    .head1 ul {
+        display: none;
+      }
+      .head1 .fa-bars {
+        display: block !important;
+        font-size: 30px;
+      }
+}
+@media screen and (max-width: 721px){
+    #fexi{
+        .fa-envelope{
+            display: none !important;
+        }
+        .fa-brands{
+            display: none !important; 
+        }
+    }
+}
+@media screen and (max-width: 423px){
+    .head1{
+        .fa-bars{
+            position: relative;
+            left: 50px;
+        }
+    }
+}
+@media screen and (max-width: 370px){
+    .head2{
+        display: none !important;
+    }
+}
+@media screen and (max-width: 489px){
+    #fexi{
+        text-align: center;
+    }
+}
+@media screen and (max-width: 350px){
+    .head1{
+        h2{
+            font-size: 30px !important;
+        }
+    }
+}
+@media screen and (max-width: 273px){
+    .head1{
+        h2{
+            font-size: 20px !important;
+        }
+    }
+}
+@media screen and (max-width: 203px){
+    .head1{
+        h2{
+            font-size: 15px !important;
+        }
+    }
+}
+@media screen and (max-width: 190px){
+    input{
+        width: 90px !important;
+    }
+}
+@media screen and (max-width: 361px){
+    #fexi{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
+
+}
+@media screen and (max-width: 280px){
+    #fexi{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        a{
+            font-size: 11px;
+        }
+    }
+    .tani{
+        h2{
+            font-size: 15px !important;
+        }
+    }
+}
+@media screen and (max-width: 182px){
+    button{
+        font-size: 20px !important;
     }
 }
