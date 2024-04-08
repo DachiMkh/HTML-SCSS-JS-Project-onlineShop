@@ -1,0 +1,197 @@
+html {
+  scroll-behavior: smooth;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Alumni Sans Collegiate One", sans-serif;
+}
+
+body {
+  background: rgb(33, 73, 24);
+  background: linear-gradient(90deg, rgb(52, 165, 142) 0%, rgb(77, 222, 11) 100%);
+}
+body .log {
+  margin-top: 80px;
+  width: 100%;
+  height: 89.1vh;
+}
+body header {
+  background-color: rgb(5, 47, 5);
+  width: 100%;
+  height: 80px;
+  display: flex;
+  position: fixed;
+  top: 0;
+  z-index: 2;
+}
+body header .fa-bars {
+  display: none;
+}
+body header .head1 {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 60%;
+  height: 80px;
+}
+body header .head1 h2 {
+  font-size: 40px;
+}
+body header .head1 a {
+  color: white;
+  text-decoration: none;
+  transition: 1s;
+}
+body header .head1 a:hover {
+  color: green;
+}
+body header ul {
+  display: flex;
+  gap: 40px;
+  list-style: none;
+}
+body header ul a:hover {
+  color: green;
+}
+body header ul li {
+  width: 70px;
+  text-align: center;
+}
+body header .head2 {
+  margin-right: 30px;
+  width: 50%;
+  height: 80px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 40px;
+}
+body header .head2 a {
+  color: white;
+  text-decoration: none;
+  transition: 1s;
+}
+body header .head2 a:hover {
+  color: green;
+}
+body header .head2 button {
+  margin-right: 50px;
+  background-color: black;
+  color: white;
+  border: none;
+  height: 40px;
+  width: 150px;
+  transition: 1s;
+  cursor: pointer;
+}
+body header .head2 button:hover {
+  background-color: green;
+}
+
+#fexi {
+  background-color: black;
+  width: 100%;
+  height: 300px;
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+#fexi a {
+  color: greenyellow;
+  text-decoration: none;
+  transition: 1s;
+}
+#fexi a:hover {
+  color: green;
+}
+#fexi div {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  align-items: center;
+  width: 50%;
+}
+#fexi div div {
+  display: flex;
+  gap: 20px;
+}
+#fexi p {
+  color: white;
+}
+#fexi h2 {
+  color: white;
+}
+
+@media screen and (max-width: 1132px) {
+  .head1 ul {
+    display: none;
+  }
+  .head1 .fa-bars {
+    display: block !important;
+    font-size: 30px;
+  }
+}
+@media screen and (max-width: 721px) {
+  #fexi .fa-envelope {
+    display: none !important;
+  }
+  #fexi .fa-brands {
+    display: none !important;
+  }
+}
+@media screen and (max-width: 423px) {
+  .head1 .fa-bars {
+    position: relative;
+    left: 50px;
+  }
+}
+@media screen and (max-width: 370px) {
+  .head2 {
+    display: none !important;
+  }
+}
+@media screen and (max-width: 489px) {
+  #fexi {
+    text-align: center;
+  }
+}
+@media screen and (max-width: 350px) {
+  .head1 h2 {
+    font-size: 30px !important;
+  }
+}
+@media screen and (max-width: 273px) {
+  .head1 h2 {
+    font-size: 20px !important;
+  }
+}
+@media screen and (max-width: 203px) {
+  .head1 h2 {
+    font-size: 15px !important;
+  }
+}
+@media screen and (max-width: 361px) {
+  #fexi {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+}
+@media screen and (max-width: 280px) {
+  #fexi {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+  #fexi a {
+    font-size: 11px;
+  }
+}/*# sourceMappingURL=login.css.map */
