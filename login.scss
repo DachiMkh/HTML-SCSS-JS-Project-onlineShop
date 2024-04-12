@@ -15,6 +15,62 @@ body{
         margin-top: 80px;
         width: 100%;
         height: 89.1vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        form{
+            background: rgb(34,193,195);
+            background: linear-gradient(0deg, rgba(34,193,195,1) 0%,
+            rgba(253,187,45,1) 100%);
+            width: 40%;
+            height: 70%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            gap: 50px;
+            button{
+                width: 25%;
+                height: 50px;
+                border: none;
+                border-radius: 25px;
+                cursor: pointer;
+                transition: 1s;
+            }
+            button:hover{
+                background-color: lightseagreen;
+                color: white;
+            }
+            label{
+                position: relative;
+                left: 15px;
+            }
+            input{
+                height: 50px;
+                border-radius: 50px;
+                border: none;
+                padding-left: 10px;
+                transition: 1s;
+                color: aqua;
+                outline: none;
+                }
+                input:hover{
+                    background-color: greenyellow;
+                }
+                input:focus{
+                    background-color: rgb(121, 160, 63);
+                }
+            div{
+                display: flex;
+                flex-direction: column;
+                width: 70%;
+            }
+            border-radius: 15px ;
+            h1{
+                text-align: center;
+                font-size: 30px;
+            }
+        }
     }
     header{
     background-color: rgb(5, 47, 5);
@@ -205,3 +261,13 @@ body{
     }
 }
 // ///
+@media screen and (max-width: 605px){
+    form{
+        width: 300px !important;
+    }
+}
+@media screen and (max-width: 317px){
+button{
+    width: 75px !important;
+}
+}

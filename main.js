@@ -17,7 +17,7 @@ function myCards(things){
         if(things[i].title.toLowerCase().includes(input.value.toLowerCase())){
         sec.innerHTML += `<div class = "tani">
         <img src="${things[i].image}" alt="poto">
-        <h2>${things[i].title}</h2>
+        <h3>${things[i].title}</h3>
         <p>${things[i].price} $</p>
         <button>save</button>
     </div>`;

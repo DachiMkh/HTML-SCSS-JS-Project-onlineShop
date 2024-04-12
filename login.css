@@ -17,6 +17,61 @@ body .log {
   margin-top: 80px;
   width: 100%;
   height: 89.1vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+body .log form {
+  background: rgb(34, 193, 195);
+  background: linear-gradient(0deg, rgb(34, 193, 195) 0%, rgb(253, 187, 45) 100%);
+  width: 40%;
+  height: 70%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+  border-radius: 15px;
+}
+body .log form button {
+  width: 25%;
+  height: 50px;
+  border: none;
+  border-radius: 25px;
+  cursor: pointer;
+  transition: 1s;
+}
+body .log form button:hover {
+  background-color: lightseagreen;
+  color: white;
+}
+body .log form label {
+  position: relative;
+  left: 15px;
+}
+body .log form input {
+  height: 50px;
+  border-radius: 50px;
+  border: none;
+  padding-left: 10px;
+  transition: 1s;
+  color: aqua;
+  outline: none;
+}
+body .log form input:hover {
+  background-color: greenyellow;
+}
+body .log form input:focus {
+  background-color: rgb(121, 160, 63);
+}
+body .log form div {
+  display: flex;
+  flex-direction: column;
+  width: 70%;
+}
+body .log form h1 {
+  text-align: center;
+  font-size: 30px;
 }
 body header {
   background-color: rgb(5, 47, 5);
@@ -193,5 +248,15 @@ body header .head2 button:hover {
   }
   #fexi a {
     font-size: 11px;
+  }
+}
+@media screen and (max-width: 605px) {
+  form {
+    width: 300px !important;
+  }
+}
+@media screen and (max-width: 317px) {
+  button {
+    width: 75px !important;
   }
 }/*# sourceMappingURL=login.css.map */

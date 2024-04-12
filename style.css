@@ -100,6 +100,7 @@ body .forInput input {
   padding-left: 10px;
   transition: 1s;
   color: aqua;
+  outline: none;
 }
 body .forInput input:hover {
   background-color: greenyellow;
@@ -126,6 +127,9 @@ body #main div {
   flex-direction: column;
   justify-content: space-between;
   text-align: center;
+}
+body #main div h3 {
+  font-size: 20px;
 }
 body #main div img {
   width: 100%;
