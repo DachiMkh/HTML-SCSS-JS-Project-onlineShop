@@ -261,23 +261,52 @@ body{
     }
 }
 // /////////////////////////////
-@media screen and (max-width: 360px){
+@media screen and (max-width: 700px){
     h1{
         font-size: 75px !important;
     }
 }
-@media screen and (max-width: 295px){
+@media screen and (max-width: 588px){
     h1{
         font-size: 60px !important;
     }
 }
-@media screen and (max-width: 245px){
+@media screen and (max-width: 485px){
     h1{
         font-size: 45px !important;
     }
 }
-@media screen and (max-width: 190px){
+@media screen and (max-width: 378px){
     h1{
         font-size: 35px !important;
     }
 }
+@media screen and (max-width: 378px){
+    h1{
+        font-size: 30px !important;
+    }
+}
+@media screen and (max-width: 280px){
+    h1{
+        font-size: 25px !important;
+    }
+}
+@media screen and (max-width: 240px){
+    h1{
+        font-size: 20px !important;
+    }
+}
+@media screen and (max-width: 200px){
+    h1{
+        font-size: 15px !important;
+    }
+}
+@media screen and (max-width: 185px){
+    button{
+        display: none;
+    }
+    h1{
+        font-size: 10px !important;
+    }
+}
+
