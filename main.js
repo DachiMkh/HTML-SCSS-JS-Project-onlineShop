@@ -24,3 +24,15 @@ function myCards(things){
     }
 }
 }
+
+// const hamburger = document.querySelector(".burger");
+// const head =documen.querySelector(".head1");
+// hamburger.addEventListener("click", () => {
+//     hamburger.classList.toggle("active")
+//     head.classList.toggle("active")
+// })
+// document.querySelectorAll(".head1").forEach(n =>
+//      n.addEventListener("click", () => {
+//         hamburger.classList.remove("active")
+//         head.classList.remove("active")
+//      }))
