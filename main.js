@@ -5,11 +5,13 @@ fetch("https://fakestoreapi.com/products")
 let sec = document.getElementById("main")
 let input = document.getElementById("inp")
 
-input.addEventListener("keyup", function(){
+input.addEventListener("keyup", function(e){
+    if(e.code == "Enter"){
     sec.innerHTML = ""
     fetch("https://fakestoreapi.com/products")
     .then(response => response.json())
     .then(end => myCards(end));
+    }
 });
 
 function myCards(things){
@@ -24,18 +26,6 @@ function myCards(things){
     }
 }
 }
-
-// const hamburger = document.querySelector(".burger");
-// const head =documen.querySelector(".head1");
-// hamburger.addEventListener("click", () => {
-//     hamburger.classList.toggle("active")
-//     head.classList.toggle("active")
-// })
-// document.querySelectorAll(".head1").forEach(n =>
-//      n.addEventListener("click", () => {
-//         hamburger.classList.remove("active")
-//         head.classList.remove("active")
-//      }))
 
 let btn = document.getElementById("clic")
 let burger = document.querySelector(".burger")
