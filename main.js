@@ -36,3 +36,10 @@ function myCards(things){
 //         hamburger.classList.remove("active")
 //         head.classList.remove("active")
 //      }))
+
+let btn = document.getElementById("clic")
+let burger = document.querySelector(".burger")
+btn.onclick = function(){
+    burger.classList.toggle("sheweva")
+    btn.classList.toggle("rotate")
+}
