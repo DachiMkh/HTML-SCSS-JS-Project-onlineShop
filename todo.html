@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="./login.css">
+    <link rel="stylesheet" href="./todo.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
@@ -31,22 +31,18 @@
             <a href="./login.html" id="change"><i class="fa-solid fa-user"></i> Log In</a>
         </div>
     </header>
-    <!-- ////////////////////////////// -->
-    <section class="log">
-        <form action="">
-            <h1>Login</h1>
-            <div>
-            <label for="">Username</label>
-            <input type="text" placeholder="max 6 characters" required maxlength="6" id="inp2">
-            </div>
-            <div>
-            <label for="">Password</label>
-            <input type="password" placeholder="Start with capital and use two numbers " required id="inp">
-            </div>
-            <button id="btn2">Sign in</button>
-        </form>
+    <!-- ////////////////////////////////// -->
+    <section class="forMain">
+    <div id="listMain">
+        <div class="row">
+            <input type="text" id="inputBox" placeholder="What do you whant to do?">
+            <button id="btn3"><b>Add</b></button>
+        </div>
+        <ul id="list">
+        </ul>
+    </div>
     </section>
-    <!-- ///////////////////////////////// -->
+    <!-- /////////////////////////////////////////// -->
     <footer id="fexi">
         <div>
             <h2>Thanks for shopping</h2>
@@ -65,6 +61,6 @@
         </div>
         </div>
     </footer>
-    <script src="./login.js"></script>
+    <script src="./todo.js"></script>
 </body>
 </html>
