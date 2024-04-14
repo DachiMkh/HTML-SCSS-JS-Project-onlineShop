@@ -10,3 +10,19 @@ let storedUsername = localStorage.getItem("username");
 if(storedUsername){
     change.innerText = storedUsername;
 }
+
+// function saveItem(title, price, image) {
+//     let savedItemsDiv = document.getElementById("savedItems");
+//     savedItemsDiv.innerHTML += `<div>
+//     <img src="${image}" alt="poto">
+//     <h3>${title}</h3>
+//     <p>${price} $</p>
+//     <button><i class="fa-solid fa-trash"></i></button>
+//     </div>`;
+// }
+
+
+
+
+
+
