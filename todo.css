@@ -19,23 +19,23 @@ html {
 
 #is {
   list-style: none;
-  background-color: rgb(124, 220, 255);
+  background-color: rgb(102, 192, 90);
   width: 100%;
   font-size: 17px;
   height: 40px;
   border-radius: 10px;
-  border: 1px grey solid;
   display: flex;
   justify-content: space-around;
   align-items: center;
   position: relative;
   overflow: hidden;
+  margin-top: 10px;
 }
 #is span {
   position: absolute;
   right: 0px;
   width: 40px;
-  background-color: blue;
+  background-color: rgb(102, 192, 90);
   height: 40px;
   display: flex;
   justify-content: center;
@@ -44,9 +44,9 @@ html {
   cursor: pointer;
   transition: 1s;
 }
-#is span span:hover {
-  color: rgb(216, 12, 172);
-  background-color: cyan;
+#is span:hover {
+  background-color: aquamarine;
+  color: black;
 }
 
 body {
