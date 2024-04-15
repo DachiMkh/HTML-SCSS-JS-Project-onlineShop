@@ -21,12 +21,10 @@ function myCards(things){
         <img src="${things[i].image}" alt="poto">
         <h3>${things[i].title}</h3>
         <p>${things[i].price} $</p>
-        <button>save</button>
     </div>`;
     }
 }
 }
-
 let btn = document.getElementById("clic")
 let burger = document.querySelector(".burger")
 btn.onclick = function(){
